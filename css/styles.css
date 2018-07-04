@@ -7,6 +7,7 @@ body {
 .full-width {
 	width: 1200px;
 	margin: 0 auto;
+	clear: both;
 }
 
 .half-width {
@@ -15,7 +16,7 @@ body {
 }
 
 .third-width {
-	width: 400px;
+	width: 398px;
 	float: left;
 }
 
@@ -37,7 +38,6 @@ h1 span {
 
 .main-nav {
 	float: right;
-	padding: 25px 40px;
 }
 
 nav ul li {
@@ -50,6 +50,7 @@ nav ul li {
 	font-size: 14px;
 	color: #77a466;
 	font-weight: 700;
+	padding: 10px;
 }
 
 
@@ -72,16 +73,18 @@ header p {
 
 /* * Main Styles * */
 
+main {
+ border-top: 1px solid #dedbdc;
+ border-bottom: 1px solid #dedbdc;
+}
+
+
 h3 {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 700;
 }
 
-#menu {
-	border-top: 1px solid #dedbdc;
-	border-bottom: 1px solid #dedbdc;
-}
 
 
 #menu ul{
@@ -97,20 +100,18 @@ h3 {
 }
 
 #reviews {
-	border: 1px solid #dedbdc;
-	padding: 15px;
+	border-left: 1px solid #dedbdc;
+	border-right:  1px solid #dedbdc;
+	padding: 20px 0 0 20px
 }
 
 #reviews p {
 	font-size: 16px;
 	line-height: 21px;
+	width: 320px;
+	margin: auto 0;
 }
 
-
-#contact {
-	border-top: 1px solid #dedbdc;
-	border-bottom:  1px solid #dedbdc;
-}
 
 #contact p {
 
@@ -119,8 +120,26 @@ h3 {
 }
 
 #contact a {
-	color: 000;
+	color: #000;
 	text-decoration: none;
 }
 
 /* * Footer Styles * */
+
+footer {
+
+}
+
+
+footer p {
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 40px;
+}
+.emphasis {
+	color: #77a466;
+	font-family: 'Dancing Script', cursive;
+	text-transform: lowercase;
+}
