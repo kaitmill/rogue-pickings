@@ -18,6 +18,8 @@ body {
 .third-width {
 	width: 398px;
 	float: left;
+	padding-top: 32px;
+	height: 202px;
 }
 
 
@@ -57,6 +59,7 @@ nav ul li {
 
 #header-img {
 	border: solid 2px #77a466;
+	margin-top: 15px;
 }
 
 h2 {
@@ -64,16 +67,18 @@ h2 {
 	color: #77a466;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding: 15px 0;
 }
 
 header p {
 	font-size: 16px;
 	line-height: 25px;
+	padding-bottom: 30px;
 }
 
 /* * Main Styles * */
 
-main {
+#container {
  border-top: 1px solid #dedbdc;
  border-bottom: 1px solid #dedbdc;
 }
@@ -96,20 +101,24 @@ h3 {
 	font-size: 16px;
 	line-height: 18px;
 	color: #77a466;
-	padding: 8px 8px 8px 0;
+	padding: 8px 0;
 }
 
 #reviews {
 	border-left: 1px solid #dedbdc;
 	border-right:  1px solid #dedbdc;
-	padding: 20px 0 0 20px
 }
 
 #reviews p {
 	font-size: 16px;
 	line-height: 21px;
 	width: 320px;
-	margin: auto 0;
+	padding-left: 32px;
+}
+
+#reviews h3,
+#contact h3 {
+	padding-left: 32px;
 }
 
 
@@ -117,6 +126,7 @@ h3 {
 
 	font-size: 16px;
 	line-height: 24px;
+	padding-left: 32px;
 }
 
 #contact a {
